@@ -4,9 +4,9 @@ https://github.com/otale/tale
 
 ## describe
 
-```
+
 In the OptionsService class, the application does not properly validate or filter the `themeUrl` input. This oversight allows an attacker to inject malicious JavaScript code through URL manipulation. By crafting a malicious URL that includes executable HTML or JavaScript content, an attacker can exploit this vulnerability to perform a Cross-Site Scripting (XSS) attack.
-```
+
 
 ## code analyze
 
